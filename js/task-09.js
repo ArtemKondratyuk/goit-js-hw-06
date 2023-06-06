@@ -10,7 +10,9 @@ const nameColorRef = document.querySelector('.color')
 btnRef. addEventListener('click', onBtnRefClick);
 
 function onBtnRefClick (event) {
-  bodyRef.style.backgroundColor = getRandomHexColor();
-  nameColorRef.textContent = getRandomHexCo0lor();
-  
-}
+  const randomcolor = getRandomHexColor()
+    bodyRef.style.backgroundColor = randomcolor 
+    nameColorRef.textContent = randomcolor 
+    
+  }
+
